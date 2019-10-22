@@ -1,3 +1,10 @@
+/**
+ * @author Mehmet Şerefoğlu
+ *
+ * @param <T>
+ * @param <BUILD>
+ */
+
 package BuilderDesignPattern.builder;
 
 public interface IBuilder<T,BUILD> {

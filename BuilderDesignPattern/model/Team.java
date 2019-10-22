@@ -1,3 +1,8 @@
+/**
+ * @author Mehmet Şerefoğlu
+ *
+ */
+
 package BuilderDesignPattern.model;
 
 import BuilderDesignPattern.builder.IBuilder;

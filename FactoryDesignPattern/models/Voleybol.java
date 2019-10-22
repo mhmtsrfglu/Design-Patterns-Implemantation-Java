@@ -1,4 +1,9 @@
+/**
+ * @author Mehmet Şerefoğlu
+ *
+ */
 package FactoryDesignPattern.models;
+
 
 public class Voleybol implements Team{
 	private String teamNameAttr;

@@ -1,4 +1,10 @@
+/**
+ * @author Mehmet Şerefoğlu
+ *
+ */
+
 package FactoryDesignPattern.models;
+
 
 public class Futbol implements Team{
 	private String teamNameAttr;
