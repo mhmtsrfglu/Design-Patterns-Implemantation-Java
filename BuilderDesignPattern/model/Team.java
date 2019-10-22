@@ -59,14 +59,6 @@ public class Team {
 		private int countAttr;
 		private String colorsAttr;
 		private int yearAttr;
-		public TeamBuilder() {}
-		public TeamBuilder(String teamNameAttr, String teamTypeAttr, int countAttr, String colorsAttr, int yearAttr) {
-			this.teamNameAttr = teamNameAttr;
-			this.teamTypeAttr = teamTypeAttr;
-			this.countAttr = countAttr;
-			this.colorsAttr = colorsAttr;
-			this.yearAttr = yearAttr;
-		}
 
 		@Override
 		public TeamBuilder teamName(String teamName) {
@@ -100,7 +92,12 @@ public class Team {
 
 		@Override
 		public Team buildTeam() {
-			return new Team(this);
+			try {
+				return new Team(this);
+			} catch (Exception e) {
+				System.out.println("error");
+			}
+			return null;
 		}
 	}
 }
